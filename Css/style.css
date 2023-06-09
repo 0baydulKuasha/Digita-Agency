@@ -1,0 +1,341 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li,a{
+    list-style-type: none;
+    text-decoration: none;
+}
+/* ------------------------Header manu Part end----------------------------------- */
+ 
+.header_manu{     
+     padding: 10px;
+
+}
+.header_manu .Manu_bar{
+    display: flex;
+    justify-content: space-between; 
+}
+.header_manu .Manu_bar .manu { 
+    padding: 0 0 0 43%;
+    gap: 20px;
+    color: #fff;
+}
+.header_manu .Manu_bar .manu li a{ 
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+}
+.header_manu .Manu_bar .manu li ul li a{
+    color: #000;
+}
+.header_manu .Manu_bar .manu li a:hover{ 
+    color: #fff; 
+    border-bottom: 2px solid yellow;
+}
+
+
+
+/* ------------------------Header manu Part end----------------------------------- */
+/* ------------------------Digital Part Start----------------------------------- */
+.bannar-part {
+    background-image: url(img/IMG\ SECTION.png); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 600px;
+    border-radius: 0 0 20% 0;
+}
+ /* .bannar-part .bg-img{
+    background-image: url(img/IMG\ SECTION.png); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 600px;
+    border-radius: 0 0 20% 0;
+}  */
+.bannar-part .bannar_text{ 
+    width: 600px;
+    padding: 10% 0 10% 0;
+}
+/* .bannar-part .bannar_text h1{}
+.bannar-part .bannar_text h1 span{} */
+.bannar-part .bannar_text .REQUEST_QUOTE{
+    
+    padding: 15px 30px;
+    color: #fff;
+    background-color: black;
+    border-radius:0 30px 0 30px;
+}
+.bannar-part .bannar_text .START_NOW{
+    margin: 0 0 0 60px;
+    padding: 15px 30px;
+    color: #fff;
+    background-color: black;
+    border-radius:2px 30px 0 30px;
+}
+
+
+/* ------------------------Digital Part End----------------------------------- */
+
+/* ------------------------About Part----------------------------------- */
+.about_part{
+
+}
+.about_part .about{
+    background-image: url(img/SECTION_2.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin: 0 0 0 -16%;
+    /* width: 500px; */
+}
+.about_part .about_text{
+    padding: 10px 0 10px 190px;
+
+}
+.about_part .about_text h1{
+    color: #f1b8b8;
+    font-size: 100px;
+    opacity: 70%;
+    position: absolute;
+    padding: 20px 0 0 60px;
+    font-weight: bold;
+
+}
+.about_part .about_text .text-Part{
+    position: relative;
+
+}
+.about_part .about_text .text-Part h3{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 130px 0 0 200px;
+}
+.about_part .about_text .text-Part p{
+    
+    padding: 30px 0 0 130px;
+}
+.about_part .about_text .text-Part .btn{
+    background: #000;
+    padding: 5px 20px; 
+    border-radius: 40px;
+    color: #fff;
+    margin: 10px 0 0 130px;
+
+}
+
+/* ------------------------About Part End----------------------------------- */
+/* ------------------------Our Services Part Start----------------------------------- */
+.our_Services .services-bg{
+    background-image: url(img/expert-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 70px 0;
+}
+.our_Services .text{
+    color: blue;
+    padding: 90px 0 50px;
+}
+.our_Services .text h3{
+    font-size: 30px;
+    font-weight: 300px; 
+}
+.our_Services .text h2{ 
+    font-weight: bold;
+}
+.our_Services .text .btn{
+     padding: 5px 20px;
+     background: #6c698e;
+     color: #fff;
+     border-radius: 30px;
+}
+.our_Services .text .btn:hover{
+     padding: 5px 20px;
+     background: #458ca9;
+     color: #000;
+     border-radius: 30px;
+}
+.our_Services .item{ 
+  /* margin: 40px 0 0 0; */
+  background-image:url( js  );  
+} 
+.our_Services .item .item_part{
+    background: #fff; 
+    color: #000; 
+    box-shadow: 2px 2px 2px 2px ;
+    border-radius: 20px;
+    width: 158px;
+    padding: 10px;
+}
+.our_Services .item .item_1{
+ margin: 170px 0 0 0;
+}
+.our_Services .item .item_2{
+ margin: 80px 0 0 0;
+}
+.our_Services .item .item_3{
+ margin: 20px 0  0 0;
+}
+.our_Services .item .item_part:hover{
+    background: #312ab4; 
+    color: #fff; 
+    /* box-shadow: ; */
+    border-radius: 20px;
+}
+.our_Services .item .item_part img{
+    margin: 20px 0 0 50px;
+    width: 40px;
+    height: 40px;
+}
+.our_Services .item .item_part img:hover{
+    color: #fff;
+    margin: 20px 0 0 50px;
+    width: 40px;
+    height: 40px;
+}
+.our_Services .item .item_part h3{
+    padding: 0 0 20px 0;
+    font-size: 15px;
+    text-align: center;    
+}
+
+/* ------------------------Our Services Part End----------------------------------- */
+/* ------------------------------Amazind Part Start----------------------------------- */
+
+.amazing_video  { 
+}
+.amazing_video .img{
+    background-image: url(img/bg\ 1.png);
+    background-repeat: no-repeat; 
+    margin: 0 0 0 280px; 
+    height: 600px; 
+    position: relative;
+}
+.amazing_video .text-area{
+    position: absolute;
+    text-align: center;
+    padding: 200px 0 0 10px;
+    color: #fff;
+}
+
+
+/* ------------------------Amazing Part End----------------------------------- */
+/* ------------------------Project Part start----------------------------------- */
+.project_complet_part .project-bg{
+    background-image: url(img/expert-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0 40px 0;
+    /* background: #000; */
+}
+.project_complet_part .Day{
+    text-align: center; 
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px 0;
+}
+.project_complet_part .Day img{
+    color: #000;
+}
+.project_complet_part .Day h3{
+    padding: 10px;
+    font-weight: bold;
+}
+.project_complet_part .Day h1{
+    font-size: 30px;
+    font-weight: bold;
+} 
+ 
+
+
+/* ------------------------Project Part End----------------------------------- */
+/* ------------------------Sell_part Part start----------------------------------- */
+.Sell_part{
+    padding: 40px 0 40px 0;
+}
+.Sell_part .bg-img{
+    background-image: url(img/bg\ \(1\)\ 1.png);
+    opacity: 80%; 
+}
+.Sell_part  .Free{
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 10px;
+    opacity: 90%; 
+}
+.Sell_part .Free h2{
+    box-shadow: 0px 2px 2px 2px;
+    text-align: center;
+    padding: 5px; 
+}
+.Sell_part .Free h3{
+    text-align: start;
+    opacity: 70%;
+    font-size: 20px;
+    padding: 5px;
+}
+.Sell_part .Free p{
+    color: #192d35;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.Sell_part .Free .btn{
+    border: 2px solid rgb(16, 53, 184);
+    padding: 8px 50px;
+    border-radius: 10px; 
+    font-weight: bold;
+}
+.Sell_part .Free .btn:hover{
+    border: 2px solid rgb(159, 173, 213);
+    background: #000;
+    padding: 8px 50px;
+    border-radius: 10px; 
+    color: #fff;
+}
+
+/* ------------------------Project Part End----------------------------------- */
+/* ------------------------Exparts Part Start----------------------------------- */
+.Exparts .Meet-be{
+    background-image: url(img/expert-background.png);
+}
+.Exparts .text{
+    padding: 50px 0 0 0;
+}
+.Exparts .text h1{ 
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+}
+.Exparts .text .btn{
+    border: 2px solid #000;
+    padding: 5px 30px;
+}
+.Exparts .item{} 
+
+.Exparts .item img{ 
+    width: 250px;
+    padding: 0 0 8px 0;
+    border-radius: 0px 80px 0 80px;
+} 
+.Exparts .item img:hover{
+    
+}
+.Exparts .item h1{
+    font-weight: bold; 
+    text-align: center;
+}
+.Exparts .item h4{
+    opacity: 70%;
+    font-size: 15px;
+    text-align: center;
+}
+/* ------------------------Exparts Part End----------------------------------- */
+ 
+
+
+
+
+
+
+
